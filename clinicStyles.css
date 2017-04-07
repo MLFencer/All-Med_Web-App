@@ -1,0 +1,74 @@
+
+.topofpage{
+    background-color: royalblue;
+}
+
+
+.pageHeader{
+// margin-top: 50px;
+    text-align: center;
+    font-size: 400%;
+    font-family: "Goudy Old Style";
+}
+
+#container1{
+    float: Left;
+    width: 100%;
+    background: deepskyblue;
+    overflow: hidden;
+    position: relative;
+}
+
+#container2{
+    float: left;
+    width: 100%;
+    background: lightskyblue;
+    position: relative;
+    right:20%;
+}
+
+#container3{
+    float:left;
+    width: 100%;
+    background: deepskyblue;
+    position: relative;
+    right:60%
+}
+
+#col1{
+    float: left;
+    width:20%;
+    position:relative;
+    left:80%;
+    overflow: hidden;
+}
+
+#col2{
+    float: left;
+    width:60%;
+    position:relative;
+    left:80%;
+    overflow: hidden;
+}
+
+#col3{
+    float: left;
+    width:20%;
+    position:relative;
+    left:80%;
+    overflow: hidden;
+}
+
+.registerMenu{
+    border: 3px solid black;
+    justify-content: center;
+}
+
+.subHeader{
+    text-align: center;
+    text-decoration-color: lightslategray;
+}
+
+.pageBody{
+    background-color: royalblue;
+}

@@ -1,4 +1,26 @@
 
+#label{
+    width:40%;
+    float: left;
+    align-content: flex-start;
+    left:15%;
+    position: relative;
+    margin-top: 1%;
+}
+
+#theInput{
+    float: left;
+    width:40%;
+    align-content: flex-end;
+    left:25%;
+    position: relative;
+    margin-top: 1%;
+}
+
+#centerStuff{
+    margin-top: 5%;
+}
+
 .topofpage{
     background-color: royalblue;
 }

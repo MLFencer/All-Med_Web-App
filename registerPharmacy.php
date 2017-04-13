@@ -113,8 +113,8 @@
                         <div id="label">Manager Last Name:</div> <div id="theInput"><input name="Lname" type="text"></div>
                         <div id="label">Manager Email:</div> <div id="theInput"><input name="email" type="email"></div>
                         <div id="label">Manager Username:</div> <div id="theInput"><input name="username" type="text"></div>
-                        <div id="label">Temporary Password:</div> <div id="theInput"><input name="password" type="password"></div>
-                        <div id="label">Repeat Temporary Password:</div> <div id="theInput"><input name="password2" type="password"></div>
+                        <div id="label">Password:</div> <div id="theInput"><input name="password" type="password"></div>
+                        <div id="label">Repeat Password:</div> <div id="theInput"><input name="password2" type="password"></div>
                         <div id="label">Pharmacy Phone Number:</div> <div id="theInput"><input name="phone" type="tel"></div>
                         <div id="label">Pharmacy Name:</div> <div id="theInput"><input name="name" type="text"></div>
                         <div id="label">Pharmacy Location:</div><div id="theInput"><br> </div>

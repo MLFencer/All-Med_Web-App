@@ -79,9 +79,10 @@
                                         "username" => $_POST['username'],
                                         "password" => $_POST['password'],
                                     ),
-                                    "pharmacy" => array(
+                                    "clinic" => array(
                                         "name" => $_POST['name'],
                                         "phone" => $_POST['phone'],
+                                        "rooms"=>$_POST['rooms'],
                                         "location" => array(
                                             "street" => $_POST['street'],
                                             "city" => $_POST['city'],
@@ -122,6 +123,8 @@
                         <div id="label">City: </div><div id="theInput"><input name="city" type="text"></div>
                         <div id="label">State:</div> <div id="theInput"><input name="state" type="text"></div>
                         <div id="label">Zip:</div> <div id="theInput"><input name="zip" type="number"></div>
+                        <div id="label">Number of Rooms:</div> <div id="theInput"><input name="rooms" type="number"></div>
+
                         <input type="submit" name="submit" value="Submit" style="margin-top: 50%">
 
 

@@ -65,7 +65,9 @@
             </div>
 
             <div id="col2">
-                This is col2
+               All-Med is intended to be an all encomplasing patient care program. It consists of this website,
+                an Android patient app, an Android Clinic App, and an Android Pharmacy App. They all work together
+                by connecting to a socket server. There they share and store information.
             </div>
 
             <div id="col3">

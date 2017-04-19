@@ -99,7 +99,17 @@
                                     fwrite($client, "web:pharmacy:$json");
                                 }
                                 fclose($client);
+                                $server="10.0.0.34:3306";
+                                $database="allmed";
+                                $username="dev";
+                                $password="Nofool01!";
+                                $tbName=$_POST['username'];
 
+                                $db = new PDO("mysql:host=$server;dbname=$database", $username, $password);
+                                $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                                $sql="CREATE TABLE $tbName (drug_id int(11) not null)";
+                                $db->exec($sql);
+                                $db=null;
                             } else{
                                 echo "<h5>Passwords do not match</h5>";
                             }
